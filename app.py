@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")  # set in Render dashboard
+BOT_TOKEN = "8651110879:AAHOFcHVVazuUaGhxFTfNjVwFIVJwEgwVkg"  # set in Render dashboard
 API_KEY = "30c382602bfa67c8a7c580e6cfe2becb"
 TELEGRAM_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
